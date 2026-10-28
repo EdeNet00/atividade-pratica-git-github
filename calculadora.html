@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <p>Adição de dois números com JavaScript</p>
+    </header>
+
+    <main class="container">
+        <section class="cartao">
+            <h2>Somar números</h2>
+
+            <form id="form-calculadora">
+                <label for="numero1">Primeiro número</label>
+                <input id="numero1" type="number" step="any" required>
+
+                <label for="numero2">Segundo número</label>
+                <input id="numero2" type="number" step="any" required>
+
+                <button class="botao" type="submit">Somar</button>
+            </form>
+
+            <p id="resultado" aria-live="polite">
+                O resultado aparecerá aqui.
+            </p>
+
+            <a class="botao secundario" href="index.html">
+                Voltar ao início
+            </a>
+        </section>
+    </main>
+
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
