@@ -42,3 +42,5 @@ O GitHub armazena o repositório remoto.
 
 As operações de commit, push, pull e consulta ao histórico
 são realizadas pelo Visual Studio Code.
+
+Atualização remota para demonstrar o comando pull.
